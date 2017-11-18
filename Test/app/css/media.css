@@ -1,0 +1,53 @@
+@media screen and (max-width:1024px){
+  .navbar-brand img{
+    display: none;
+  }
+  .navbar-nav .dropdown-menu .caret {
+    transform: rotate(-90deg);
+  }
+}
+
+@media screen and (max-width:768px){
+  
+  
+  
+
+}
+  
+
+@media only screen and (max-width:414px){
+  .product{
+    margin-bottom: 20px;
+  }
+  .nav{
+    text-align: center;
+    font-size: 24px;
+  }
+  
+
+} 
+
+@media only screen and (max-width:375px){
+  
+} 
+
+@media only screen and (max-width:320px){
+  
+}   
+
+
+
+
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}    

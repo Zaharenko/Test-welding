@@ -1,0 +1,96 @@
+body {
+  background-color: #fff;
+}
+.navbar-default {
+  background-color: #ede230;
+  border-color: #da7b21;
+}
+.dropdown-menu {
+  background-color: #ede230;
+}
+.navbar-brand img {
+  width: 51px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-text {
+  color: #da7b21;
+}
+.navbar-right span {
+  color: #da7b21;
+  line-height: 50px;
+}
+.navbar-right span:hover {
+  color: #fff;
+}
+.block1 {
+  display: none;
+}
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.welding {
+  position: relative;
+  display: table;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  background: url("../img/weld.jpg") no-repeat center center;
+  height: 100vh;
+}
+.welding h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+.welding p {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.welding-overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.welding-header {
+  position: relative;
+  z-index: 2;
+}
+.welding-line {
+  width: 200px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.products {
+  display: none;
+  margin-top: 71px;
+  text-align: center;
+}
+.products > .row {
+  margin-bottom: 30px;
+}
+.product {
+  border: 1px solid #cecece;
+  padding: 10px;
+}
+.product img {
+  width: 50%;
+}
+.model {
+  font-size: 12px;
+  text-align: left;
+}
+.table {
+  position: absolute;
+  top: 10%;
+  background-color: #fff;
+  display: none;
+}
